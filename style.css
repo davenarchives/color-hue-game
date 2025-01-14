@@ -60,3 +60,48 @@ h1 {
   font-size: 18px;
   margin-bottom: 20px;
 }
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+body.dark-mode .box {
+  border-color: #666;
+}
+
+body.dark-mode .restart {
+  background-color: #0056b3;
+}
+
+body.dark-mode .restart:hover {
+  background-color: #003d80;
+}
+
+.dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #0056b3;
+}
+
+body.dark-mode .dark-mode-toggle {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+body.dark-mode .dark-mode-toggle:hover {
+  background-color: #ddd;
+}
+
